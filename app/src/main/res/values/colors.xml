@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="profile_background">#24292e</color>
+    <color name="black">#FDFEFF</color>
+    <color name="grey">#858687</color>
+    <color name="background">#FAFBFA</color>
+    <color name="background_github">#f5f5f5</color>
+</resources>

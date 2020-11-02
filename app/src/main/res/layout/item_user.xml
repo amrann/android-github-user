@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+    
+    <ImageView
+        android:id="@+id/poto"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:contentDescription="Foto profil list item"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/poto"
+        android:text="Nama User"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/poto"
+        android:maxLines="2"
+        tools:text="Lorem Ipsum"/>
+    
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCompany"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/poto"
+        android:maxLines="2"
+        tools:text="Lorem Ipsum"/>
+
+
+</RelativeLayout>
