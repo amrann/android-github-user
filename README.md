@@ -1,5 +1,5 @@
 ## About
-Dicoding Submission - Fundamental Android Class
+Dicoding Submission #1 - Fundamental Android Class
 
 ## Learn
 - Parcelable
